@@ -10,7 +10,7 @@ Functions defined
 
 def custom_sort(data_paths):
     '''
-    Custom sort function that is able to  sort a given array of data_paths for the data set of UTD-MHAD
+    Custom sort function that is able to sort a given array of data_paths for the data set of UTD-MHAD
 
     The sort would sort by:
         1) time
@@ -42,6 +42,36 @@ def custom_sort(data_paths):
         get_file_name(x).split('_')[0][1:]))
 
     return data_sort_a
+
+
+def get_dataset(root_data_path):
+    '''
+    Returns the sorted full datapath of Depth, Intertial and Skeleton
+
+    Parameters
+    ----------
+    root_data_path: string
+        the path directory containing Depth, Interial and Skeleton .mat files
+
+    Returns
+    -------
+    full_data_paths: list of string
+        a list containing a sorted list of the full data paths of Depth, Inertial and Skeleton .mat files
+    '''
+    import os
+    import glob
+
+    assert type(root_data_path) == str, "root_data_path is not a str. Type is: {}".format(
+        type(root_data_path))
+    attrs = os.listdir(root_data_path)
+    assert len(attrs) != 0, "The root_data_path contains nothing: {}".format(attrs)
+    full_data_paths = []
+    for attr in attrs:
+        temp_path = os.path.join(root_data_path, attr)
+        temp_data_full_path = glob.glob(os.path.join(temp_path, '*mat'))
+        temp_data_full_path = custom_sort(temp_data_full_path)
+        full_data_paths.append(temp_data_full_path)
+    return full_data_paths
 
 
 if __name__ == "__main__":
