@@ -76,3 +76,4 @@ def get_dataset(root_data_path):
 
 if __name__ == "__main__":
     print("This script contains all the helper functions required to analyze the UTD-MHAD dataset")
+
