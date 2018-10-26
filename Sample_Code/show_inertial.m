@@ -26,3 +26,5 @@ ylabel('Gyroscope (degree/second)');
 %title(strcat('Action = ', num2str(action), '  ', 'Trial = ', num2str(trial)));
 set(gcf,'Position', [600, 250, 500, 500]);
 
+
+

@@ -76,7 +76,7 @@ def show_skeleton_video(skeleton_info, frame_rate=50):
     # ax.set_zlabel('y axis')
     # ax.set_axis_off()
 
-    ax.view_init(10, 0)
+    ax.view_init(90, 0)
     ax.set_xlim3d(minx, maxx)
     ax.set_zlim3d(miny, maxy)
     ax.set_ylim3d(minz, maxz)
