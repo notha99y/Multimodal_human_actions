@@ -1,7 +1,10 @@
 # Multi-modal Human Actions
 In this repo, we would analyze the open source human action regonition data from UT Dallas (data provided [here](https://www.utdallas.edu/~kehtar/UTD-MHAD.html))
 
-TODO: add more stuffs
+
+# About the Dataset
+The naming convention of a file is "ai_sj_tk_modality", where ai stands for action number i, sj stands for subject number j, tk stands for trial k, and modality corresponds to four data modalities (color, depth, skeleton, inertial).
+
 
 ## Depth Data
 The depth data is a `(240, 320, 55) WidthxHeightxFrames matrix`. <br>
@@ -36,3 +39,7 @@ The skeleton joint order in UTD-MAD dataset:
 
 Example of the skeleton data looks like this <br>
 ![skeleton_tennis_swing](pictures/skeleton_tennis_swing.gif)
+
+## Inertial Data
+
+![inertial_tennis_swing](pictures/inertial_tennis_swing.png)
