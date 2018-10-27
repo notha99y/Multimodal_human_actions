@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  26 OCT 2018 18:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  27 OCT 2018 11:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -647,28 +647,33 @@ e
 \c@lstlisting=\count121
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 22.
 
+Underfull \hbox (badness 1953) in paragraph at lines 50--51
+[]\OT1/ptm/m/n/12 Dicuss im-pli-ca-tions, lim-i-ta-tions and fu-ture
+ []
+
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 ] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 4707 strings out of 492982
- 68767 string characters out of 6134895
- 132158 words of memory out of 5000000
- 8209 multiletter control sequences out of 15000+600000
- 32413 words of font info for 70 fonts, out of 8000000 for 9000
+ 4724 strings out of 492982
+ 68940 string characters out of 6134895
+ 136158 words of memory out of 5000000
+ 8219 multiletter control sequences out of 15000+600000
+ 37487 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,32p,273b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/times/utmr8a.pfb>
-Output written on report.pdf (1 page, 33386 bytes).
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/times/utmr8a.pfb>
+Output written on report.pdf (1 page, 43111 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
- 17 compressed objects within 1 object stream
+ 29 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
