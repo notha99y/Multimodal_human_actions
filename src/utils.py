@@ -13,8 +13,8 @@ def custom_sort(data_paths):
     Custom sort function that is able to sort a given array of data_paths for the data set of UTD-MHAD
 
     The sort would sort by:
-        1) time
-        2) sensors
+        1) trials
+        2) subjects
         3) actions 
 
     Returning a sorted array of file paths
@@ -46,12 +46,12 @@ def custom_sort(data_paths):
 
 def get_dataset(root_data_path):
     '''
-    Returns the sorted full datapath of Depth, Intertial and Skeleton
+    Returns the sorted full datapath of Depth, Inertial and Skeleton
 
     Parameters
     ----------
     root_data_path: string
-        the path directory containing Depth, Interial and Skeleton .mat files
+        the path directory containing Depth, Inertial and Skeleton .mat files
 
     Returns
     -------
@@ -74,6 +74,19 @@ def get_dataset(root_data_path):
     return full_data_paths
 
 
+def select_data(d_path, action, subject, trial):
+    '''
+    Selects the data for a given action, subject, trial
+    '''
+    select_statement = 'a{}_s{}_t{}'.format(action, subject, trial)
+    print("selecting: ", select_statement)
+
+    for i in d_path:
+        if select_statement in i:
+            return i
+
+    print("Invalid action, subject or trial")
+
+
 if __name__ == "__main__":
     print("This script contains all the helper functions required to analyze the UTD-MHAD dataset")
-
