@@ -3,3 +3,5 @@ data/
 */ipynb_checkpoints
 /RGB
 /RGB.zip
+/weights
+/logs
