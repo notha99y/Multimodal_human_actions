@@ -67,10 +67,16 @@ def get_dataset(root_data_path):
     assert len(attrs) != 0, "The root_data_path contains nothing: {}".format(attrs)
     full_data_paths = []
     for attr in attrs:
-        temp_path = os.path.join(root_data_path, attr)
-        temp_data_full_path = glob.glob(os.path.join(temp_path, '*mat'))
-        temp_data_full_path = custom_sort(temp_data_full_path)
-        full_data_paths.append(temp_data_full_path)
+        if 'RGB' in attr:
+            temp_path = os.path.join(root_data_path, attr)
+            temp_data_full_path = glob.glob(os.path.join(temp_path, '*avi'))
+            temp_data_full_path = custom_sort(temp_data_full_path)
+            full_data_paths.append(temp_data_full_path)
+        else:
+            temp_path = os.path.join(root_data_path, attr)
+            temp_data_full_path = glob.glob(os.path.join(temp_path, '*mat'))
+            temp_data_full_path = custom_sort(temp_data_full_path)
+            full_data_paths.append(temp_data_full_path)
     return full_data_paths
 
 
