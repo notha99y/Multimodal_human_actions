@@ -1,9 +1,0 @@
-Theme 2: Multimodal sensor data for human activity recognition
-
-Dataset: Human activity dataset
-
-Sensor: RGB camera, depth camera, inertial sensor, microphone. 
-
-Dataset: Dallas dataset, available at http://www.utdallas.edu/~cxc123730/UTD-MHAD.html
-
-Task: Develop algorithm to perform activity classification using multiple sensors. Note that the whole dataset contains 27 activity categories

@@ -1,0 +1,223 @@
+// digraph simpleLSTM {
+//     node [shape=box, style=filled, color=gray,]; Dense_layer
+//   node [shape=box, style=filled, color=darkgreen,]; LSTM_cell;
+//     node [shape=oval, style=normal, color = black]; Input;
+    
+//  Input -> LSTM_cell -> Dense_layer   ;
+
+//         LSTM_cell[label="LSTM_cell
+//         512       
+//         recurrent_dropout = 0.5"];
+        
+//         Dense_layer[label="Dense_layer
+//         activation=relu"]
+// }
+
+// digraph bidirectionalLSTM {
+//     node [shape=box, style=filled, color=gray,]; Dense_layer;
+//     node [shape=box, style=filled, color=darkgreen,]; forward_LSTM_cell; backward_LSTM_cell;
+//     node [shape=oval, style=normal, color = black]; Input;
+    
+//  Input -> forward_LSTM_cell -> Dense_layer   ;
+// Input -> backward_LSTM_cell -> Dense_layer;
+//         forward_LSTM_cell[label="forward_LSTM_cell
+//         512       
+//         recurrent_dropout = 0.5"];
+        
+//         Dense_layer[label="Dense_layer
+//         activation=relu"]
+        
+//                 backward_LSTM_cell[label="backward_LSTM_cell
+//         512       
+//         recurrent_dropout = 0.5"];
+        
+//         Dense_layer[label="Dense_layer
+//         activation=relu"]
+// }
+
+
+// digraph convLSTM{
+//     node[shape=oval, style=normal, color=black]; Input;
+//     node[shape=box, style=filled, color=lightblue]; Conv1D16; Conv1D32; Conv1D64; Conv1D128;
+//     node[shape=box, style=filled, color=darkgreen]; LSTM_cell256, LSTM_cell512;
+//     node[shape=box, style=filled, color=orange]; Flatten;
+//     node[shape=box, style=filled, color=red]; Dropout;
+//     node[shape=box, style=filled, color=gray]; Dense_layer;
+//     node[shape=box, style=filled, color=yellow]; Maxpool1D;
+    
+//     Input -> Conv1D16 -> Conv1D32 -> Conv1D64 -> Conv1D128 -> Maxpool1D -> LSTM_cell256 -> LSTM_cell512 -> Flatten -> Dropout -> Dense_layer
+    
+//     Conv1D16[label="Conv1D
+//     filters = 3x3x16
+//     stride = 1
+//     padding = same
+//     activation = relu
+//     "]
+    
+//     Conv1D32[label="Conv1D
+//     filters = 3x3x32
+//     stride = 1
+//     padding = same
+//     activation = relu
+//     "]
+    
+//     Conv1D64[label="Conv1D
+//     filters = 3x3x64
+//     stride = 1
+//     padding = same
+//     activation = relu
+//     "]
+    
+//     Conv1D128[label="Conv1D
+//     filters = 3x3x128
+//     stride = 1
+//     padding = same
+//     activation = relu
+//     "]
+    
+//     Maxpool1D[label="Maxpool1D
+//     Kernel = 2x2"]
+    
+//     Dropout[label="Dropout
+//     Dropout rate = 0.5"]
+    
+//     LSTM_cell256[label="LSTM_cell
+//         256       
+//         recurrent_dropout = 0.5"];
+
+//     LSTM_cell512[label="LSTM_cell
+//         512       
+//         recurrent_dropout = 0.5"];
+//     Dense_layer[label="Dense_layer
+//         activation=relu"]
+// }
+
+
+digraph UNetLSTM{
+    node[shape=oval, style=normal, color=black]; Input;
+    node[shape=box, style=filled, color=lightblue]; Conv1D32a; Conv1D32b; Conv1D64a; Conv1D64b; Conv1D128a; Conv1D128b;
+    node[shape=box, style=filled, color=lightblue]; Conv1D32c; Conv1D32d; Conv1D64c; Conv1D64d; Conv1D128c;
+    node[shape=box, style=filled, color=darkgreen]; LSTM_cell256, LSTM_cell512;
+    node[shape=box, style=filled, color=orange]; Flatten;
+    node[shape=box, style=filled, color=red]; Dropout;
+    node[shape=box, style=filled, color=gray]; Dense_layer;
+    node[shape=box, style=filled, color=yellow]; Maxpool1Da; Maxpool1Db;
+    node[shape=box, style=filled, color=purple]; UpSampling1Da; UpSampling1Db;
+    
+    Input -> Conv1D32a -> Conv1D32b -> Maxpool1Da ->  Conv1D64a ->  Conv1D64b -> Maxpool1Db -> Conv1D128a -> Conv1D128b -> Dropout
+    
+    Dropout -> UpSampling1Da
+    Conv1D64b -> UpSampling1Da [label= "  Concatenate"]
+    UpSampling1Da -> Conv1D64c -> Conv1D64d
+    
+    Conv1D64d -> UpSampling1Db
+    Conv1D32b -> UpSampling1Db [label= "  Concatenate"]
+    UpSampling1Db -> Conv1D32c -> Conv1D32d -> Conv1D128c
+    
+    Conv1D128c->LSTM_cell256->LSTM_cell512->Flatten->Dense_layer
+    
+    
+    Conv1D32a[label="Conv1D
+    filters = 3x3x32
+    stride = 1
+    padding = same
+    activation = relu
+    "]
+    
+    
+    Conv1D32b[label="Conv1D
+    filters = 3x3x32
+    stride = 1
+    padding = same
+    activation = relu
+    "]
+    
+    Conv1D32c[label="Conv1D
+    filters = 3x3x32
+    stride = 1
+    padding = same
+    activation = relu
+    "]
+    
+    Conv1D32d[label="Conv1D
+    filters = 3x3x32
+    stride = 1
+    padding = same
+    activation = relu
+    "]
+    
+    Conv1D64a[label="Conv1D
+    filters = 3x3x64
+    stride = 1
+    padding = same
+    activation = relu
+    "]
+    
+    Conv1D64b[label="Conv1D
+    filters = 3x3x64
+    stride = 1
+    padding = same
+    activation = relu
+    "]
+    
+    Conv1D64c[label="Conv1D
+    filters = 3x3x64
+    stride = 1
+    padding = same
+    activation = relu
+    "]
+    
+    Conv1D64d[label="Conv1D
+    filters = 3x3x64
+    stride = 1
+    padding = same
+    activation = relu
+    "]
+    
+    
+    Conv1D128a[label="Conv1D
+    filters = 3x3x128
+    stride = 1
+    padding = same
+    activation = relu
+    "]
+    
+    Conv1D128b[label="Conv1D
+    filters = 3x3x128
+    stride = 1
+    padding = same
+    activation = relu
+    "]
+    
+    Conv1D128c[label="Conv1D
+    filters = 3x3x128
+    stride = 1
+    padding = same
+    activation = relu
+    "]
+    
+    UpSampling1Da[label="UpSampling1D
+    Kernel = 2x2"]
+    
+    UpSampling1Db[label="UpSampling1D
+    Kernel = 2x2"]
+    
+    Maxpool1Da[label="Maxpool1D
+    Kernel = 2x2"]
+    
+    Maxpool1Db[label="Maxpool1D
+    Kernel = 2x2"]
+    
+    Dropout[label="Dropout
+    Dropout rate = 0.5"]
+    
+    LSTM_cell256[label="LSTM_cell
+        256       
+        recurrent_dropout = 0.5"];
+
+    LSTM_cell512[label="LSTM_cell
+        512       
+        recurrent_dropout = 0.5"];
+    Dense_layer[label="Dense_layer
+        activation=relu"]
+}

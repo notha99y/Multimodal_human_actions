@@ -67,3 +67,4 @@ line_ani = animation.FuncAnimation(fig, update_lines, 25, fargs=(data, lines),
                                    interval=50, blit=False)
 
 plt.show()
+

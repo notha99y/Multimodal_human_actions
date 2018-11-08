@@ -121,12 +121,14 @@ if __name__ == "__main__":
     import os
 
     DATA_PATH = os.path.join(os.getcwd(), 'data')
-    depth_paths, inertial_paths, skeleton_paths = get_dataset(DATA_PATH)
+    print(os.listdir(DATA_PATH))
+    depth_paths, RGB_images_paths, inertial_paths, skeleton_paths, RGB_paths, depth_numpy_paths = get_dataset(
+        DATA_PATH)
 
-    while True:
-        res = int(input("Choose a number from 0 - {}: ".format(len(depth_paths))))
-        depth_info = sio.loadmat(depth_paths[res])['d_depth']
-        show_depth_video(depth_info)
+    # while True:
+    #     res = int(input("Choose a number from 0 - {}: ".format(len(depth_paths))))
+    #     depth_info = sio.loadmat(depth_paths[res])['d_depth']
+    #     show_depth_video(depth_info)
 
-    # skeleton_info = sio.loadmat(skeleton_paths[450])['d_skel']
-    # show_skeleton_video(skeleton_info)
+    skeleton_info = sio.loadmat(skeleton_paths[450])['d_skel']
+    show_skeleton_video(skeleton_info)
