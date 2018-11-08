@@ -1,0 +1,11 @@
+name: mmha
+channels:
+  - defaults
+dependencies:
+  - python=3.6.5
+  - numpy
+  - scipy
+  - matplotlib
+  - tensorflow
+  - tensorflow-gpu
+  - keras

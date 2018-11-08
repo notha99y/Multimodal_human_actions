@@ -1,7 +1,22 @@
 # Multi-modal Human Actions
-In this repo, we would analyze the open source human action regonition data from UT Dallas (data provided [here](https://www.utdallas.edu/~kehtar/UTD-MHAD.html))
-
-
+In this repo, we would analyze the open source human action regonition data from UT Dallas
+# Setup
+1. Get Anaconda [download](https://anaconda.org/anaconda/python)
+2. Clone this repo
+3. Setup conda environment 
+```bash
+conda env create -f=environment.yml
+```
+4. Activate environment
+```bash
+source activate mmha
+```
+5. Download data from [here](https://www.utdallas.edu/~kehtar/UTD-MHAD.html) and save them under a folder named `data` at the project root directory
+6. change directory to notebooks and launch a jupyter notebook
+```bash
+cd notebooks
+jupyter notebook
+```
 # About the Dataset
 The naming convention of a file is "ai_sj_tk_modality", where ai stands for action number i, sj stands for subject number j, tk stands for trial k, and modality corresponds to four data modalities (color, depth, skeleton, inertial).
 
