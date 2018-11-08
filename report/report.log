@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  29 OCT 2018 22:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  8 NOV 2018 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -563,80 +563,167 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
-) (./report.aux)
-\openout1 = `report.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-
--- Lines per column: 56 (exact).
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count115
-\scratchdimen=\dimen142
-\scratchbox=\box32
-\nofMPsegments=\count116
-\nofMParguments=\count117
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count118
-\MPscratchDim=\dimen143
-\MPnumerator=\count119
-\makeMPintoPDFobject=\count120
-\everyMPtoPDFconversion=\toks25
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count115
+\float@exts=\toks24
+\float@box=\box32
+\@float@everytoks=\toks25
+\@floatcapt=\box33
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen142
+\Hy@linkcounter=\count116
+\Hy@pagecounter=\count117
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count118
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count119
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen143
+\Fld@menulength=\count120
+\Field@Width=\dimen144
+\Fld@charsize=\dimen145
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count121
+\c@Item=\count122
+\c@Hfootnote=\count123
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count124
+\c@bookmark@seq@number=\count125
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip52
+)
+(./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+
+-- Lines per column: 56 (exact).
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count126
+\scratchdimen=\dimen146
+\scratchbox=\box34
+\nofMPsegments=\count127
+\nofMParguments=\count128
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count129
+\MPscratchDim=\dimen147
+\MPnumerator=\count130
+\makeMPintoPDFobject=\count131
+\everyMPtoPDFconversion=\toks27
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
@@ -649,14 +736,389 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count121
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 22.
+\c@lstlisting=\count132
+\AtBeginShipoutBox=\box35
+Package hyperref Info: Link coloring OFF on input line 14.
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--40
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count133
+)
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
+
+(./report.out) (./report.out)
+\@outlinefile=\write4
+\openout4 = `report.out'.
+
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 25.
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
 
  []
 
-(./report.bbl)
+
+Underfull \hbox (badness 4391) in paragraph at lines 31--34
+\OT1/ptm/m/n/10 Traditional ap-proaches can be gen-er-ally bro-ken down
+ []
+
+<two_stream_architecture.png, id=147, 600.2425pt x 212.795pt>
+File: two_stream_architecture.png Graphic file (type png)
+<use two_stream_architecture.png>
+Package pdftex.def Info: two_stream_architecture.png  used on input line 50.
+(pdftex.def)             Requested size: 240.09274pt x 85.11649pt.
+
+Underfull \hbox (badness 5374) in paragraph at lines 39--52
+\OT1/ptm/m/n/10 ex-tract-ing the use-ful spatio-temporal fea-tures. An-other
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--52
+
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 39--52
+\OT1/ptm/m/n/10 Con-vo-lu-tional Net-works (LRCN) [[]], 3-D Con-vo-lu-tional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--52
+
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 39--52
+\OT1/ptm/m/n/10 Hid-den Two-Stream Con-vo-lu-tional Net-works [[]], Two-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--52
+
+ []
+
+<depth_tennis_swing.png, id=154, 339.2675pt x 251.94125pt>
+File: depth_tennis_swing.png Graphic file (type png)
+<use depth_tennis_swing.png>
+Package pdftex.def Info: depth_tennis_swing.png  used on input line 59.
+(pdftex.def)             Requested size: 101.78102pt x 75.58295pt.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./two_stream_architecture.png>]
+<inertial_tennis_swing.png, id=190, 830.10126pt x 381.425pt>
+File: inertial_tennis_swing.png Graphic file (type png)
+<use inertial_tennis_swing.png>
+Package pdftex.def Info: inertial_tennis_swing.png  used on input line 65.
+(pdftex.def)             Requested size: 249.0323pt x 114.42838pt.
+<skeleton_tennis_swing.png, id=191, 310.15875pt x 375.4025pt>
+File: skeleton_tennis_swing.png Graphic file (type png)
+<use skeleton_tennis_swing.png>
+Package pdftex.def Info: skeleton_tennis_swing.png  used on input line 71.
+(pdftex.def)             Requested size: 93.04834pt x 112.62161pt.
+<tennis_swing.png, id=192, 289.08pt x 214.8025pt>
+File: tennis_swing.png Graphic file (type png)
+<use tennis_swing.png>
+Package pdftex.def Info: tennis_swing.png  used on input line 77.
+(pdftex.def)             Requested size: 115.62994pt x 85.91946pt.
+<period_hist.png, id=195, 369.38pt x 240.9pt>
+File: period_hist.png Graphic file (type png)
+<use period_hist.png>
+Package pdftex.def Info: period_hist.png  used on input line 88.
+(pdftex.def)             Requested size: 147.74937pt x 96.35828pt.
+<amp_max_acc_hist.png, id=198, 366.36874pt x 237.88875pt>
+File: amp_max_acc_hist.png Graphic file (type png)
+<use amp_max_acc_hist.png>
+Package pdftex.def Info: amp_max_acc_hist.png  used on input line 96.
+(pdftex.def)             Requested size: 146.54489pt x 95.15381pt.
+<amp_min_acc_hist.png, id=199, 366.36874pt x 239.89626pt>
+File: amp_min_acc_hist.png Graphic file (type png)
+<use amp_min_acc_hist.png>
+Package pdftex.def Info: amp_min_acc_hist.png  used on input line 103.
+(pdftex.def)             Requested size: 146.54489pt x 95.95679pt.
+<amp_max_gyro_hist.png, id=200, 367.3725pt x 239.89626pt>
+File: amp_max_gyro_hist.png Graphic file (type png)
+<use amp_max_gyro_hist.png>
+Package pdftex.def Info: amp_max_gyro_hist.png  used on input line 110.
+(pdftex.def)             Requested size: 146.94638pt x 95.95679pt.
+<amp_min_gyro_hist.png, id=201, 369.38pt x 238.8925pt>
+File: amp_min_gyro_hist.png Graphic file (type png)
+<use amp_min_gyro_hist.png>
+Package pdftex.def Info: amp_min_gyro_hist.png  used on input line 117.
+(pdftex.def)             Requested size: 147.74937pt x 95.5553pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./depth_tennis_swing.png> <./inertial_tennis_swing.png> <./skeleton_tennis
+_swing.png> <./tennis_swing.png> <./period_hist.png> <./amp_max_acc_hist.png> <
+./amp_min_acc_hist.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+<simple_LSTM/simpleLSTM_acc_plot.png, id=225, 482.80376pt x 331.2375pt>
+File: simple_LSTM/simpleLSTM_acc_plot.png Graphic file (type png)
+<use simple_LSTM/simpleLSTM_acc_plot.png>
+Package pdftex.def Info: simple_LSTM/simpleLSTM_acc_plot.png  used on input lin
+e 160.
+(pdftex.def)             Requested size: 193.11807pt x 132.49265pt.
+[3 <./amp_max_gyro_hist.png> <./amp_min_gyro_hist.png>]
+<simple_LSTM/simpleLSTM_loss_plot.png, id=252, 482.80376pt x 332.24126pt>
+File: simple_LSTM/simpleLSTM_loss_plot.png Graphic file (type png)
+<use simple_LSTM/simpleLSTM_loss_plot.png>
+Package pdftex.def Info: simple_LSTM/simpleLSTM_loss_plot.png  used on input li
+ne 167.
+(pdftex.def)             Requested size: 193.11807pt x 132.89413pt.
+<simple_LSTM/simpleLSTM_confusion_matrix.png, id=253, 769.87625pt x 759.83875pt
+>
+File: simple_LSTM/simpleLSTM_confusion_matrix.png Graphic file (type png)
+<use simple_LSTM/simpleLSTM_confusion_matrix.png>
+Package pdftex.def Info: simple_LSTM/simpleLSTM_confusion_matrix.png  used on i
+nput line 174.
+(pdftex.def)             Requested size: 230.96466pt x 227.95337pt.
+<bidirectional_LSTM/bidirectionalLSTM_acc_plot.png, id=257, 482.80376pt x 331.2
+375pt>
+File: bidirectional_LSTM/bidirectionalLSTM_acc_plot.png Graphic file (type png)
+
+<use bidirectional_LSTM/bidirectionalLSTM_acc_plot.png>
+Package pdftex.def Info: bidirectional_LSTM/bidirectionalLSTM_acc_plot.png  use
+d on input line 183.
+(pdftex.def)             Requested size: 193.11807pt x 132.49265pt.
+<bidirectional_LSTM/bidirectionalLSTM_loss_plot.png, id=258, 482.80376pt x 331.
+2375pt>
+File: bidirectional_LSTM/bidirectionalLSTM_loss_plot.png Graphic file (type png
+)
+<use bidirectional_LSTM/bidirectionalLSTM_loss_plot.png>
+Package pdftex.def Info: bidirectional_LSTM/bidirectionalLSTM_loss_plot.png  us
+ed on input line 190.
+(pdftex.def)             Requested size: 193.11807pt x 132.49265pt.
+<bidirectional_LSTM/bidirectional_confusion_matrix.png, id=259, 767.86874pt x 7
+58.835pt>
+File: bidirectional_LSTM/bidirectional_confusion_matrix.png Graphic file (type 
+png)
+<use bidirectional_LSTM/bidirectional_confusion_matrix.png>
+Package pdftex.def Info: bidirectional_LSTM/bidirectional_confusion_matrix.png 
+ used on input line 197.
+(pdftex.def)             Requested size: 230.3624pt x 227.65225pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./simple_LSTM/simpleLSTM_acc_plot.png> <./simple_LSTM/simpleLSTM_loss_plot
+.png> <./simple_LSTM/simpleLSTM_confusion_matrix.png> <./bidirectional_LSTM/bid
+irectionalLSTM_acc_plot.png> <./bidirectional_LSTM/bidirectionalLSTM_loss_plot.
+png>]
+<conv_LSTM/conv_LSTM_acc_plot.png, id=275, 482.80376pt x 333.245pt>
+File: conv_LSTM/conv_LSTM_acc_plot.png Graphic file (type png)
+<use conv_LSTM/conv_LSTM_acc_plot.png>
+Package pdftex.def Info: conv_LSTM/conv_LSTM_acc_plot.png  used on input line 2
+08.
+(pdftex.def)             Requested size: 193.11807pt x 133.29562pt.
+<conv_LSTM/conv_LSTM_loss_plot.png, id=276, 482.80376pt x 334.24875pt>
+File: conv_LSTM/conv_LSTM_loss_plot.png Graphic file (type png)
+<use conv_LSTM/conv_LSTM_loss_plot.png>
+Package pdftex.def Info: conv_LSTM/conv_LSTM_loss_plot.png  used on input line 
+215.
+(pdftex.def)             Requested size: 193.11807pt x 133.69713pt.
+<conv_LSTM/conv_lstm_confusion_matrix.png, id=277, 768.8725pt x 761.84625pt>
+File: conv_LSTM/conv_lstm_confusion_matrix.png Graphic file (type png)
+<use conv_LSTM/conv_lstm_confusion_matrix.png>
+Package pdftex.def Info: conv_LSTM/conv_lstm_confusion_matrix.png  used on inpu
+t line 222.
+(pdftex.def)             Requested size: 230.66353pt x 228.55563pt.
+<UNet_LSTM/UNet_LSTM_acc_plot.png, id=278, 482.80376pt x 331.2375pt>
+File: UNet_LSTM/UNet_LSTM_acc_plot.png Graphic file (type png)
+<use UNet_LSTM/UNet_LSTM_acc_plot.png>
+Package pdftex.def Info: UNet_LSTM/UNet_LSTM_acc_plot.png  used on input line 2
+33.
+(pdftex.def)             Requested size: 193.11807pt x 132.49265pt.
+<UNet_LSTM/UNet_LSTM_loss_plot.png, id=279, 482.80376pt x 331.2375pt>
+File: UNet_LSTM/UNet_LSTM_loss_plot.png Graphic file (type png)
+<use UNet_LSTM/UNet_LSTM_loss_plot.png>
+Package pdftex.def Info: UNet_LSTM/UNet_LSTM_loss_plot.png  used on input line 
+240.
+(pdftex.def)             Requested size: 193.11807pt x 132.49265pt.
+<UNet_LSTM/UNet_lstm_confusion_matrix.png, id=280, 769.87625pt x 759.83875pt>
+File: UNet_LSTM/UNet_lstm_confusion_matrix.png Graphic file (type png)
+<use UNet_LSTM/UNet_lstm_confusion_matrix.png>
+Package pdftex.def Info: UNet_LSTM/UNet_lstm_confusion_matrix.png  used on inpu
+t line 247.
+(pdftex.def)             Requested size: 230.96466pt x 227.95337pt.
+
+Underfull \vbox (badness 1117) has occurred while \output is active []
+
+ [5 <./bidirectional_LSTM/bidirectional_confusion_matrix.png> <./conv_LSTM/conv
+_LSTM_acc_plot.png> <./conv_LSTM/conv_LSTM_loss_plot.png> <./conv_LSTM/conv_lst
+m_confusion_matrix.png> <./UNet_LSTM/UNet_LSTM_acc_plot.png> <./UNet_LSTM/UNet_
+LSTM_loss_plot.png>]
+<ensemble_conv_UNet_LSTM/ensemble_conv_UNet_lstm_confusion_matrix.png, id=295, 
+764.8575pt x 764.8575pt>
+File: ensemble_conv_UNet_LSTM/ensemble_conv_UNet_lstm_confusion_matrix.png Grap
+hic file (type png)
+<use ensemble_conv_UNet_LSTM/ensemble_conv_UNet_lstm_confusion_matrix.png>
+Package pdftex.def Info: ensemble_conv_UNet_LSTM/ensemble_conv_UNet_lstm_confus
+ion_matrix.png  used on input line 256.
+(pdftex.def)             Requested size: 229.45901pt x 229.45901pt.
+<conv_LSTM_iner_skel/conv_LSTM_acc_plot_iner_skel.png, id=296, 376.40625pt x 25
+2.945pt>
+File: conv_LSTM_iner_skel/conv_LSTM_acc_plot_iner_skel.png Graphic file (type p
+ng)
+<use conv_LSTM_iner_skel/conv_LSTM_acc_plot_iner_skel.png>
+Package pdftex.def Info: conv_LSTM_iner_skel/conv_LSTM_acc_plot_iner_skel.png  
+used on input line 267.
+(pdftex.def)             Requested size: 150.55983pt x 101.17621pt.
+<conv_LSTM_iner_skel/conv_LSTM_loss_plot_iner_skel.png, id=297, 376.40625pt x 2
+52.945pt>
+File: conv_LSTM_iner_skel/conv_LSTM_loss_plot_iner_skel.png Graphic file (type 
+png)
+<use conv_LSTM_iner_skel/conv_LSTM_loss_plot_iner_skel.png>
+Package pdftex.def Info: conv_LSTM_iner_skel/conv_LSTM_loss_plot_iner_skel.png 
+ used on input line 274.
+(pdftex.def)             Requested size: 150.55983pt x 101.17621pt.
+<conv_LSTM_iner_skel/conv_lstm_confusion_matrix_iner_skel.png, id=298, 774.895p
+t x 767.86874pt>
+File: conv_LSTM_iner_skel/conv_lstm_confusion_matrix_iner_skel.png Graphic file
+ (type png)
+<use conv_LSTM_iner_skel/conv_lstm_confusion_matrix_iner_skel.png>
+Package pdftex.def Info: conv_LSTM_iner_skel/conv_lstm_confusion_matrix_iner_sk
+el.png  used on input line 281.
+(pdftex.def)             Requested size: 232.47029pt x 230.3624pt.
+<UNet_LSTM_iner_skel/UNet_LSTM_acc_plot_iner_skel.png, id=299, 376.40625pt x 25
+2.945pt>
+File: UNet_LSTM_iner_skel/UNet_LSTM_acc_plot_iner_skel.png Graphic file (type p
+ng)
+<use UNet_LSTM_iner_skel/UNet_LSTM_acc_plot_iner_skel.png>
+Package pdftex.def Info: UNet_LSTM_iner_skel/UNet_LSTM_acc_plot_iner_skel.png  
+used on input line 290.
+(pdftex.def)             Requested size: 150.55983pt x 101.17621pt.
+<UNet_LSTM_iner_skel/UNet_LSTM_loss_plot_iner_skel.png, id=300, 376.40625pt x 2
+52.945pt>
+File: UNet_LSTM_iner_skel/UNet_LSTM_loss_plot_iner_skel.png Graphic file (type 
+png)
+<use UNet_LSTM_iner_skel/UNet_LSTM_loss_plot_iner_skel.png>
+Package pdftex.def Info: UNet_LSTM_iner_skel/UNet_LSTM_loss_plot_iner_skel.png 
+ used on input line 297.
+(pdftex.def)             Requested size: 150.55983pt x 101.17621pt.
+
+Underfull \vbox (badness 3482) has occurred while \output is active []
+
+ [6 <./UNet_LSTM/UNet_lstm_confusion_matrix.png> <./ensemble_conv_UNet_LSTM/ens
+emble_conv_UNet_lstm_confusion_matrix.png> <./conv_LSTM_iner_skel/conv_LSTM_acc
+_plot_iner_skel.png> <./conv_LSTM_iner_skel/conv_LSTM_loss_plot_iner_skel.png> 
+<./conv_LSTM_iner_skel/conv_lstm_confusion_matrix_iner_skel.png>]
+<UNet_LSTM_iner_skel/UNet_lstm_confusion_matrix_iner_skel.png, id=312, 773.8912
+5pt x 766.865pt>
+File: UNet_LSTM_iner_skel/UNet_lstm_confusion_matrix_iner_skel.png Graphic file
+ (type png)
+<use UNet_LSTM_iner_skel/UNet_lstm_confusion_matrix_iner_skel.png>
+Package pdftex.def Info: UNet_LSTM_iner_skel/UNet_lstm_confusion_matrix_iner_sk
+el.png  used on input line 304.
+(pdftex.def)             Requested size: 232.16916pt x 230.06128pt.
+<ensemble_conv_UNet_LSTM/ensemble_UNet_lstm_confusion_matrix_iner_skel.png, id=
+314, 774.895pt x 766.865pt>
+File: ensemble_conv_UNet_LSTM/ensemble_UNet_lstm_confusion_matrix_iner_skel.png
+ Graphic file (type png)
+<use ensemble_conv_UNet_LSTM/ensemble_UNet_lstm_confusion_matrix_iner_skel.png>
+
+Package pdftex.def Info: ensemble_conv_UNet_LSTM/ensemble_UNet_lstm_confusion_m
+atrix_iner_skel.png  used on input line 313.
+(pdftex.def)             Requested size: 232.47029pt x 230.06128pt.
+
+Underfull \vbox (badness 1314) has occurred while \output is active []
+
+
+Overfull \hbox (4.24646pt too wide) in paragraph at lines 323--332
+[][] 
+ []
+
+[7 <./UNet_LSTM_iner_skel/UNet_LSTM_acc_plot_iner_skel.png> <./UNet_LSTM_iner_s
+kel/UNet_LSTM_loss_plot_iner_skel.png> <./UNet_LSTM_iner_skel/UNet_lstm_confusi
+on_matrix_iner_skel.png> <./ensemble_conv_UNet_LSTM/ensemble_UNet_lstm_confusio
+n_matrix_iner_skel.png>]
+<models/simple_LSTM.png, id=336, 246.9225pt x 289.08pt>
+File: models/simple_LSTM.png Graphic file (type png)
+<use models/simple_LSTM.png>
+Package pdftex.def Info: models/simple_LSTM.png  used on input line 344.
+(pdftex.def)             Requested size: 123.46094pt x 144.53964pt.
+<models/bidirectional_LSTM.png, id=337, 507.8975pt x 289.08pt>
+File: models/bidirectional_LSTM.png Graphic file (type png)
+<use models/bidirectional_LSTM.png>
+Package pdftex.def Info: models/bidirectional_LSTM.png  used on input line 350.
+
+(pdftex.def)             Requested size: 253.94814pt x 144.53964pt.
+
+Overfull \hbox (1.94814pt too wide) in paragraph at lines 350--351
+ [] 
+ []
+
+<models/conv_LSTM.png, id=338, 246.9225pt x 1494.58376pt>
+File: models/conv_LSTM.png Graphic file (type png)
+<use models/conv_LSTM.png>
+Package pdftex.def Info: models/conv_LSTM.png  used on input line 356.
+(pdftex.def)             Requested size: 98.76724pt x 597.8229pt.
+<models/UNet_LSTM.png, id=339, 461.725pt x 3209.9925pt>
+File: models/UNet_LSTM.png Graphic file (type png)
+<use models/UNet_LSTM.png>
+Package pdftex.def Info: models/UNet_LSTM.png  used on input line 362.
+(pdftex.def)             Requested size: 101.5798pt x 706.20055pt.
+
+Underfull \vbox (badness 7203) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./models/simple_LSTM.png> <./models/bidirectional_LSTM.png> <./models/conv
+_LSTM.png>]
+Overfull \vbox (63.53252pt too high) has occurred while \output is active []
+
+
+(./report.bbl
+Overfull \hbox (125.56844pt too wide) in paragraph at lines 153--160
+\OT1/ptm/m/n/8 6770-[]train-[]longer-[]generalize-[]better-[]closing-[]the-[]ge
+neralization-[]gap-[]in-[]large-[]batch-[]training-[]of-[]neural-[]networks$[] 
+
+ []
+
+[9 <./models/UNet_LSTM.png>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -668,29 +1130,45 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 369.
+[10
 
-
-] (./report.aux) ) 
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 369.
+ (./report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 369.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 369.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: 53E558E2BED8CF5C5D90C8BE62DC4C22;2093.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 369.
+ ) 
 Here is how much of TeX's memory you used:
- 4744 strings out of 492982
- 69308 string characters out of 6134895
- 140810 words of memory out of 5000000
- 8242 multiletter control sequences out of 15000+600000
- 37835 words of font info for 79 fonts, out of 8000000 for 9000
+ 8716 strings out of 492982
+ 133253 string characters out of 6134895
+ 227718 words of memory out of 5000000
+ 12029 multiletter control sequences out of 15000+600000
+ 41832 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,13n,32p,273b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a
-.pfb>
-Output written on report.pdf (1 page, 55763 bytes).
+ 35i,13n,32p,887b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on report.pdf (10 pages, 1202370 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 460 PDF objects out of 1000 (max. 8388607)
+ 377 compressed objects within 4 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 419 words of extra memory for PDF output out of 10000 (max. 10000000)
 
