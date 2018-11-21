@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  8 NOV 2018 15:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  12 NOV 2018 10:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1074,12 +1074,12 @@ Overfull \hbox (4.24646pt too wide) in paragraph at lines 323--332
 kel/UNet_LSTM_loss_plot_iner_skel.png> <./UNet_LSTM_iner_skel/UNet_lstm_confusi
 on_matrix_iner_skel.png> <./ensemble_conv_UNet_LSTM/ensemble_UNet_lstm_confusio
 n_matrix_iner_skel.png>]
-<models/simple_LSTM.png, id=336, 246.9225pt x 289.08pt>
+<models/simple_LSTM.png, id=337, 246.9225pt x 289.08pt>
 File: models/simple_LSTM.png Graphic file (type png)
 <use models/simple_LSTM.png>
 Package pdftex.def Info: models/simple_LSTM.png  used on input line 344.
 (pdftex.def)             Requested size: 123.46094pt x 144.53964pt.
-<models/bidirectional_LSTM.png, id=337, 507.8975pt x 289.08pt>
+<models/bidirectional_LSTM.png, id=338, 507.8975pt x 289.08pt>
 File: models/bidirectional_LSTM.png Graphic file (type png)
 <use models/bidirectional_LSTM.png>
 Package pdftex.def Info: models/bidirectional_LSTM.png  used on input line 350.
@@ -1090,19 +1090,16 @@ Overfull \hbox (1.94814pt too wide) in paragraph at lines 350--351
  [] 
  []
 
-<models/conv_LSTM.png, id=338, 246.9225pt x 1494.58376pt>
+<models/conv_LSTM.png, id=339, 246.9225pt x 1494.58376pt>
 File: models/conv_LSTM.png Graphic file (type png)
 <use models/conv_LSTM.png>
 Package pdftex.def Info: models/conv_LSTM.png  used on input line 356.
 (pdftex.def)             Requested size: 98.76724pt x 597.8229pt.
-<models/UNet_LSTM.png, id=339, 461.725pt x 3209.9925pt>
+<models/UNet_LSTM.png, id=340, 461.725pt x 3209.9925pt>
 File: models/UNet_LSTM.png Graphic file (type png)
 <use models/UNet_LSTM.png>
 Package pdftex.def Info: models/UNet_LSTM.png  used on input line 362.
 (pdftex.def)             Requested size: 101.5798pt x 706.20055pt.
-
-Underfull \vbox (badness 7203) has occurred while \output is active []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1111,14 +1108,7 @@ _LSTM.png>]
 Overfull \vbox (63.53252pt too high) has occurred while \output is active []
 
 
-(./report.bbl
-Overfull \hbox (125.56844pt too wide) in paragraph at lines 153--160
-\OT1/ptm/m/n/8 6770-[]train-[]longer-[]generalize-[]better-[]closing-[]the-[]ge
-neralization-[]gap-[]in-[]large-[]batch-[]training-[]of-[]neural-[]networks$[] 
-
- []
-
-[9 <./models/UNet_LSTM.png>])
+(./report.bbl [9 <./models/UNet_LSTM.png>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1165,10 +1155,10 @@ ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on report.pdf (10 pages, 1202370 bytes).
+Output written on report.pdf (10 pages, 1202251 bytes).
 PDF statistics:
- 460 PDF objects out of 1000 (max. 8388607)
- 377 compressed objects within 4 object streams
+ 459 PDF objects out of 1000 (max. 8388607)
+ 376 compressed objects within 4 object streams
  114 named destinations out of 1000 (max. 500000)
  419 words of extra memory for PDF output out of 10000 (max. 10000000)
 

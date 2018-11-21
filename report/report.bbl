@@ -149,14 +149,11 @@ X.~Glorot and Y.~Bengio, ``Understanding the difficulty of training deep
 \BIBentrySTDinterwordspacing
 
 \bibitem{HofferHS17}
-\BIBentryALTinterwordspacing
 E.~Hoffer, I.~Hubara, and D.~Soudry, ``Train longer, generalize better: closing
   the generalization gap in large batch training of neural networks,'' in
   \emph{Advances in Neural Information Processing Systems 30: Annual Conference
   on Neural Information Processing Systems 2017, 4-9 December 2017, Long Beach,
-  CA, {USA}}, 2017, pp. 1729--1739. [Online]. Available:
-  \url{http://papers.nips.cc/paper/6770-train-longer-generalize-better-closing-the-generalization-gap-in-large-batch-training-of-neural-networks}
-\BIBentrySTDinterwordspacing
+  CA, {USA}}, 2017, pp. 1729--1739.
 
 \bibitem{LSTM}
 \BIBentryALTinterwordspacing

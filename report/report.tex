@@ -28,7 +28,7 @@ In this paper, we shall demonstrate an ensemble approach of performing Human Act
 \end{abstract}
 
 \section{Introduction}
-Human Action Recognition (HAR) has been a research field that piqued interests from several computer science communities since the 1980s, due to its application in many different fields of study, such as medicine, human-computer interaction, sociology. Data in the format of videos, inertial sensors, like accelerometers  and gyroscopes, depth maps and point clouds are often used to deduce the different human actions \cite{4487086}\cite{7881728}. \\ \\
+Human Action Recognition (HAR) has been a research field that piqued interests from several computer science communities since the 1980s, due to its application in many different fields of study, such as medicine, human-computer interaction, sociology. Data in the format of videos, inertial sensors, like accelerometers  and gyroscopes, depth maps and point clouds are often used to classify the different human actions \cite{4487086}\cite{7881728}. \\ \\
 Traditional approaches can be generally broken down into the following 3 steps:
 \begin{enumerate}
 \item Feature Extraction using Signal Processing or Computer Vision techniques to capture relevant spatio-temporal features \cite{5995407}\cite{1238378}\cite{1570899}
@@ -154,7 +154,7 @@ The code is written in Python, using Keras with Tensorflow backend, NumPy, SciPy
 \section{Results}
 \subsection{Inertial Data}
 \subsubsection{Simple LSTM}
-The accuracy on the validation of our simple LSTM was a depressing $0.238$. The train-val accuracy and loss plots of the Simple LSTM are shown in Fig. \ref{fig:train_val_acc_simple_LSTM}, \ref{fig:train_val_loss_simple_LSTM} respectively. It shows that the model is quickly over-fitting after epoch $2$. The confusion matrix is show in Fig. \ref{fig:confusion_matrix_simple_LSTM}. 
+The accuracy on the validation of our simple LSTM was $0.238$. The train-val accuracy and loss plots of the Simple LSTM are shown in Fig. \ref{fig:train_val_acc_simple_LSTM}, \ref{fig:train_val_loss_simple_LSTM} respectively. It shows that the model is quickly over-fitting after epoch $2$. The confusion matrix is show in Fig. \ref{fig:confusion_matrix_simple_LSTM}. 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.4]{simple_LSTM/simpleLSTM_acc_plot.png}
@@ -331,7 +331,7 @@ Iner + skel & - & - & $0.784$ & $0.742$ & $0.821$ \\
 \end{tabular}
 \end{table}
 \section{Discussion, and Conclusion}
-In this paper, we have demonstrated an ensemble approach in HAR, achieving an accuracy of $0.821$ on the validation set using the Inertial and Skeleton Data which is an improvement compared to the baseline paper of $0.672$. In the following sub sections,we shall explore other methods as future work to improve our validation accuracy. 
+In this paper, we have demonstrated an ensemble approach in HAR, achieving an accuracy of $0.821$ on the validation set using the Inertial and Skeleton Data which is an improvement compared to the baseline paper of $0.672$. This could be due to the convolutional networks being able to capture more generic, higher dimensional features compared to the Collaborative Representation Classifier (CRC) method used in \citep{1238378}-MHAD}. However, we find that there are still some things we can work on and in the following sub sections, we shall explore other methods as future work to improve our validation accuracy. 
 \subsection{Issue of model over-fitting}
 The main recurring challenge we faced was that our model was over-fitting at early epochs. Adding dropout layers seemed to reduce this, and ensembling the UNet LSTM with the Conv LSTM allows the our model to explore other solution spaces \cite{abs-1106-0257}. Over-fitting tends to happen when our model tries to learn high frequency features that may not be useful. Adding Gaussian Noise with zero mean and data points in all frequencies might enhance the learning capability of our model. Similarly, the time sequences of different subjects are quite varied even for the same activities. Performing data augmentation using time scaling and translation would increase the amount of training data, allowing our model to generalize better. On a side note, our model could also be trimmed further to reduce its complexity, and also its risk of over-fitting.
 \subsection{Data Fusion of Depth and RGB data}
