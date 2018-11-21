@@ -17,15 +17,15 @@ Warning--empty journal in UTD-MHAD
 Done.
 You've used 27 entries,
             4087 wiz_defined-function locations,
-            990 strings with 12874 characters,
-and the built_in function-call counts, 17840 in all, are:
-= -- 1377
+            989 strings with 12737 characters,
+and the built_in function-call counts, 17801 in all, are:
+= -- 1371
 > -- 528
 < -- 91
 + -- 269
 - -- 109
-* -- 904
-:= -- 2838
+* -- 899
+:= -- 2824
 add.period$ -- 54
 call.type$ -- 27
 change.case$ -- 27
@@ -34,20 +34,20 @@ cite$ -- 29
 duplicate$ -- 1318
 empty$ -- 1476
 format.name$ -- 134
-if$ -- 4081
+if$ -- 4075
 int.to.chr$ -- 0
 int.to.str$ -- 27
 missing$ -- 261
-newline$ -- 134
+newline$ -- 132
 num.names$ -- 27
-pop$ -- 657
+pop$ -- 658
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1356
+skip$ -- 1353
 stack$ -- 0
 substring$ -- 492
-swap$ -- 975
+swap$ -- 974
 text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 5
@@ -55,5 +55,5 @@ type$ -- 27
 warning$ -- 2
 while$ -- 54
 width$ -- 29
-write$ -- 304
+write$ -- 301
 (There were 2 warnings)
